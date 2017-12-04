@@ -8,7 +8,7 @@ Here you can find the instructions on how to build a single page webpage based o
 
 * Open up your text editor and create a new folder:  
       'website'
-* Create a new file: 
+* Create a new file:
       'about-me.html'
 * Create the type, head & body of the file:
 ```
@@ -27,7 +27,7 @@ Here you can find the instructions on how to build a single page webpage based o
 
 
 ## Structure
-* Divide the body into a header, two sections and a footer. Give them names, like this:
+* Divide the body into four sections. Give them names, like this:
 
 ```
 <!DOCTYPE html>
@@ -38,22 +38,22 @@ Here you can find the instructions on how to build a single page webpage based o
   </head>
 
   <body>
-    <header class="header">
-    </header>
-    
+    <section class="header">
+    </section>
+
     <section class="banner">
     </section>
-    
+
     <section class="info">
     </section>
-    
-    <footer class="footer">
-    </footer>
+
+    <section class="footer">
+    </section>
   </body>
 </html>
 ```
   Don't forget to 'indent'! By placing the elements inside the body two spaces to the right, we can easily see what's part of   the body and what's not. (There is some discussion about the ideal layout of HTML, you can find more info on [Granneman](https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html/) and [w3 schools](https://www.w3schools.com/html/html5_syntax.asp).)
-  
+
 * Add an h1 with the web address inside the header section (more info on tags can be found [here](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started), a list of tags you can use can be found [here](https://www.w3schools.com/tags/ref_byfunc.asp).)
 ```
   <body>
@@ -69,20 +69,20 @@ Here you can find the instructions on how to build a single page webpage based o
       <h1>MyName</h1>
       <h3>Write your catchy subtitle here!</h3>
     </section>
-``` 
+```
 
-* Add an h2 to the ‘info-section’  with the (sub)title: ‘Work’ 
+* Add an h2 to the ‘info-section’  with the (sub)title: ‘Work’
 
 * Add several divs with information to your ‘info-section’. A div might look like this:
-  
+
 ```
 <div >
   <h5>Developer/Codaisseur</h5>
   <h6> 2017 - now <h6>
   <p> Jodilodileedilodielodieleedilodilee jadiladilodileidejodilaordiejeoplido! Topijopieropeicopiesopeinopielopielei, padiemadie, sadiejiora jakfojaiowignkaldfjaiwojfvivei! </p>
   <hr>
-</div> 
-``` 
+</div>
+```
 
 * If you have some time left, repeat the last two steps, but now call this section education. Or hobbies. Or favorite food.     Whatever you like!
 
