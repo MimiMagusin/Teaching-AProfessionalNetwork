@@ -143,5 +143,94 @@ And that's it! Now we have a beautiful page for our fictive website!
 
 <hr>
 
+## BONUS: Links
+
+In this part we will be creating a navbar!
+
+* First of all, remove your h1 from the header section and replace it with with an unordered list:
+```
+<section class= "header">
+  <ul>
+  </ul>
+</section>
+```
+
+* Now, add four empty list items to your unordered list:
+
+```
+<section class= "header">
+  <ul>
+    <li> </li>
+    <li> </li>
+    <li> </li>
+    <li> </li>
+  </ul>
+</section>
+```
+
+* Add a [link](https://www.w3schools.com/html/html_links.asp) to each list item. A link will look like this:
+
+```
+<a href="path/to/your/file">what the user will see</a>
+```
+ In our case, our list might look like this:
+```
+<section class= "header">
+  <ul>
+    <li><a href="./info.html" class="website">AProfessionalNetwork.com</a></li>
+    <li><a href="./bio.thml">Bio</a></li>
+    <li><a href="./calendar.html">Calendar</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+  </ul>
+</section>
+```
+Now we have four clickable links! At the moment, they won't lead to any page, yet, but you could create more pages by adding and bio.html, calendar.html and a contact.html file to your ' website' directory!
+
+It still looks ugly though. Let's style it a bit more:
+
+
+* In your sylesheet.css file, write the following code. What do you think it will do?
+```
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+```
+
+* Now style the list elements (li) to display next to each other, rarther than vertically:
+
+```
+li {
+  display: inline;
+}
+```
+
+* And we will add some styling for the links itself, how they look normally, what they look like when you hover over them and what they look like when you click on them:
+
+```
+a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+```
+Cool, looks way better! Would you know a way to make the website name stand out a little more? And if you are really really fast or continuing at home, create the bio, calendar and contact page!
+
+<hr>
+
 (full powerpoint of the accompanying lectures with this class can be found [here](https://docs.google.com/presentation/d/1JWfMkMNB2b6p8A7rPkn6j4ijKcdOYdJeDoytPijJe8I/edit?usp=sharing)
  )
