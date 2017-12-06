@@ -177,10 +177,10 @@ In this part we will be creating a navbar!
 ```
 <section class= "header">
   <ul>
-    <li><a href="./info.html" class="website">AProfessionalNetwork.com</a></li>
-    <li><a href="./bio.thml">Bio</a></li>
-    <li><a href="./calendar.html">Calendar</a></li>
-    <li><a href="./contact.html">Contact</a></li>
+    <li><a href="info.html" class="website">AProfessionalNetwork.com</a></li>
+    <li><a href="bio.thml">Bio</a></li>
+    <li><a href="calendar.html">Calendar</a></li>
+    <li><a href="contact.html">Contact</a></li>
   </ul>
 </section>
 ```
